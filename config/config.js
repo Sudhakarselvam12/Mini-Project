@@ -9,20 +9,20 @@ module.exports={
     "password": DB_PASSWORD,
     "database": "mini_project_development",
     "host": DB_HOST,
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "test": {
     "username": DB_USERNAME,
     "password": DB_PASSWORD,
     "database": "mini_project_test",
     "host": DB_HOST,
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "production": {
     "username": DB_USERNAME,
     "password": DB_PASSWORD,
     "database": "mini_project_production",
     "host": DB_HOST,
-    "dialect": "postgres"
+    "dialect": "mysql"
   }
 }
