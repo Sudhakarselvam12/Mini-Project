@@ -11,7 +11,7 @@ const { celebrate, Joi, errors, Segments } = require('celebrate');
 router.use(express.json());
 const jwt = require("jsonwebtoken");
 
-const authenticatetoken=require('../authentication');
+const authenticatetoken=require('../Keel/authentication');
 const ordercontroller=require('../controller/order.js');
 
 router.post("/",celebrate({

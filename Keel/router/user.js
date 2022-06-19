@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 const { celebrate, Joi, errors, Segments } = require('celebrate');
 
-const authenticatetoken=require('../authentication');
+const authenticatetoken=require('../Keel/authentication');
 
 const usercontroller=require('../controller/user.js');
 
