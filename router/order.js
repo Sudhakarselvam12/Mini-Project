@@ -3,7 +3,7 @@ const router=express.Router();
 const db=require('../models/index');
 
 const app=express();
-var bodyParser=require("body-parser")
+var bodyParser=require("body-parser");
 app.use(bodyParser.json());
 
 const { celebrate, Joi, errors, Segments } = require('celebrate');
