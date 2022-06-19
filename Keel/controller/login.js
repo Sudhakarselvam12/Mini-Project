@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
 const jwt = require("jsonwebtoken");
-const authenticatetoken=require('../authentication');
+const authenticatetoken = require('../authentication');
 const accesstoken=process.env.ACCESS_TOKEN_SECRET;
 
 const login=async(req,res) => 

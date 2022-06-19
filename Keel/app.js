@@ -6,7 +6,7 @@ const app=express();
 
 app.use(express.json());
 const jwt = require("jsonwebtoken");
-const authenticatetoken=require('./Keel/authentication');
+const authenticatetoken = require('./authentication');
 
 const user=require('./router/user.js');
 const login=require('./router/login.js');
